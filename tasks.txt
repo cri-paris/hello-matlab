@@ -1,0 +1,32 @@
+# Created by Octave 4.0.0, Tue Sep 01 03:59:51 2015 EEST <antonkulaga@antonkulaga>
+B. Functions and algorithms
+1. Documentation: functions.
+2. Write a MATLAB function m2sum that takes two numbers and returns their sum.
+3. Write a MATLAB function pw that asks two numbers as input and raises the first number to
+the second one.
+4. Write a MATLAB function that takes an integer n and displays n time “hello”. Documentation:
+for, disp.
+5. Write a MATLAB function that takes a vector of length n (with n > 50) and plots the square
+root of all elements.
+6. Write a MATLAB function sequence0 that takes an integer n and returns the nth element of the
+sequence (u n ) defined by:
+• u0 = 0
+• u n+1 = 2*cos(u n ) + 1
+7. Write a MATLAB function sequence1 that takes an integer n and returns the nth element of the
+sequence (u n ) defined by:
+• u0 = 1
+• u n+1 = u n + n 2 − 4
+8. Write a MATLAB function sequence2 that does the same thing for the sequence defined by:
+• u0 = 8
+• u n+1 =u n /4 if u n is even, 2∗u n +1 otherwise. 10. Write a MATLAB function pra1 that takes three numbers and returns the “middle” one (the
+one that is nor the highest nor the lowest).
+11. Write a MATLAB function pra2 that takes three numbers and returns the product of the two
+lowest numbers.
+12. Write a MATLAB function pra3 that takes five numbers and returns 0 if at least two of the
+numbers are equals, 1 otherwise.
+C. More advanced algorithms
+1. Write a MATLAB function mgcd that takes two integers and returns their greater common
+divider. Documentation: while.
+2. Write a MATLAB function misprime that takes a positive integer and tells whether it is a
+prime number. Documentation: sqrt, floor, break.
+3. Calculate the sum of the first 500 prime integers.

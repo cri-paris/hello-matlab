@@ -1,0 +1,2 @@
+function prime500
+end
