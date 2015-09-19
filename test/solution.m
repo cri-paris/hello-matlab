@@ -36,5 +36,15 @@ classdef solution
            ylabel('GFP production') % y-axis label                      
            result = y;
        end
+       
+       function [dr,dy] = der(obj,r,g)
+           dr = 0.9;
+           dy = 0.3*r^2-0.5*g;
+       end
+       
+       function numericForecast(obj)           
+           [~,s] = size(obj.control); %get number of measurements           
+           ode45(@obj.der,[0,s],[0;0])
+       end
    end
 end
